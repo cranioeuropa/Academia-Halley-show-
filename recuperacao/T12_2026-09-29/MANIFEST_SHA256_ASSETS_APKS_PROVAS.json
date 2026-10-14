@@ -1,0 +1,179 @@
+{
+  "source": "PC Cranio authoritative LAB copy",
+  "entries": [
+    {
+      "group": "apk",
+      "path": "03_RELEASES/HALLEY_JORNADA_VIVA_ANDROID_V0_1_3_DEBUG.apk",
+      "bytes": 874162,
+      "sha256": "fb1b2769f389c91a28567d3d41342d84008128dd39a06f77537b0c5ec87299e4"
+    },
+    {
+      "group": "apk",
+      "path": "03_RELEASES/HALLEY_JORNADA_VIVA_ANDROID_V0_2_2_CANONICAL_REBUILD.apk",
+      "bytes": 8594544,
+      "sha256": "c9bfe974ab35cccc7c52ffa4914170d75d4016f28122db75be7c6fe75c5d3bdb"
+    },
+    {
+      "group": "apk",
+      "path": "03_RELEASES/HALLEY_JORNADA_VIVA_ANDROID_V0_2_2_DEBUG.apk",
+      "bytes": 8594544,
+      "sha256": "c9bfe974ab35cccc7c52ffa4914170d75d4016f28122db75be7c6fe75c5d3bdb"
+    },
+    {
+      "group": "apk",
+      "path": "03_RELEASES/HALLEY_JORNADA_VIVA_ANDROID_V0_2_3_DEBUG.apk",
+      "bytes": 8594596,
+      "sha256": "4af55ea10ec97fd7c6fb64594a63f80d09ab0c89a6dd92650074441a23a508a8"
+    },
+    {
+      "group": "apk",
+      "path": "03_RELEASES/HALLEY_JORNADA_VIVA_ANDROID_V0_2_4_LOCAL_LAB.apk",
+      "bytes": 8593824,
+      "sha256": "154c838123d97b9738f908fcd18d3f0d96393884d48dd3e5e66982ff43053154"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/BATCH_02/biceps-rosca.png",
+      "bytes": 1922949,
+      "sha256": "4bd27b532713c8bae7e478c97508b11df89aca19730a36d1bbd0be56113c7391"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/BATCH_02/costas-remada.png",
+      "bytes": 1894378,
+      "sha256": "4624232d0791dd2d56983252ebce2420d1a69ceb1dc8c86b1c58b0501b686d47"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/BATCH_02/ombros-press.png",
+      "bytes": 2010705,
+      "sha256": "3469a50c24b04beaa34fa46d6173763863cfc2e993033108f18d2bac264a057e"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/BATCH_02/triceps-polia.png",
+      "bytes": 1890586,
+      "sha256": "08b82930da2da4c7b2e024b4507553c8abe5640ddbc134189325e37eb22c82bd"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/MANIFEST.json",
+      "bytes": 788,
+      "sha256": "7596b17f53f42f531a83c2a150723b2315eb6054e75b98ec0803159fae6c2c21"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/QR_HALLEY_PUBLIC_INSTALL.png",
+      "bytes": 6508,
+      "sha256": "58956ec4c13302e924b4493496b5a0a14f8537a129f3a44b723f2b70ff3ef44d"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/chest-press.png",
+      "bytes": 2704059,
+      "sha256": "d5d4a201ceaf2dfd68e99f2f1c28ce0acdace8cad809a7b14314ae97ef173542"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/halley-character-guide.png",
+      "bytes": 435263,
+      "sha256": "9686e4f878429b2f763e29e44935621c49b770f114a17b9a9c4754fd1e4585bb"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/leg-press.png",
+      "bytes": 1992635,
+      "sha256": "6df77735bc6faa0536447258de8dd9fd5ad9c0911d6287ac3b2675ebd645ee41"
+    },
+    {
+      "group": "assets",
+      "path": "04_ASSETS/professor-halley.png",
+      "bytes": 2574310,
+      "sha256": "49a68df8d7a8705f44cb7196319074b18597de70d37a49146d611e2683005882"
+    },
+    {
+      "group": "web",
+      "path": "01_WEB_APPDEPLOY_SNAPSHOT/src/main.ts",
+      "bytes": 48804,
+      "sha256": "fe21b3990d6dbfd8fc4ee572adf408126747d48948332182966bc8f2e6301bd8"
+    },
+    {
+      "group": "web",
+      "path": "01_WEB_APPDEPLOY_SNAPSHOT/src/styles.css",
+      "bytes": 41275,
+      "sha256": "b5462be4b89f3d8cf07095b48df49f68e45bb3d1813a5b6264d4eb9ccd91e8ea"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/NAVE_BINDING_E2E_V1.json",
+      "bytes": 762,
+      "sha256": "6e3ac42ca65b3008f5e908ccf8ca2dcb8e53f1a6d146012a0c5b76b124fb2f4f"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/QA_BUTTONS_LOCAL_LAB_V025.json",
+      "bytes": 543,
+      "sha256": "a53f3bf927d68ff89dfce52727b7068ddbc06ed08411c869b1f8ea663a23dfc4"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/STEP_02_T04_T06_REAL_NAVE_E2E.json",
+      "bytes": 21694,
+      "sha256": "87529b0ac6f340e2812dc6c8a2daa693656401d40196be2d2ca46f035bee8dda"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/STEP_03_T08_AUTOMATED_QA.json",
+      "bytes": 474,
+      "sha256": "ecb8aba0eb14900b6e568b8a6a17470d50be3f3985ddf456bc0e170cc3842e73"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/T07_T08_PWA_QR_QA.json",
+      "bytes": 1209,
+      "sha256": "000490735bbb75ee71b826fe3ff185cf73226bcf6def7903cedeca7f8967fd4e"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/T09_XIAOMI12_EMULATION.json",
+      "bytes": 3571,
+      "sha256": "cdc896dd25cfb1eb9a7db08a0fd7ed0706e13e857da56fd80458aac6636e4d9d"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/T11_MEMBER_IDENTIFICATION_QA.json",
+      "bytes": 4471,
+      "sha256": "9af66f160b7257fe39e580384775bd297b0ab1114c8f57416f542692a092873a"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/T12_FULL_RELEASE_GATE.json",
+      "bytes": 17204,
+      "sha256": "f6cbc4738cb5960900d70db3df809afcb3622eb7b45a27987780b3aae3786677"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/TASK02_PWA_INSTALLABILITY_AUDIT.json",
+      "bytes": 1048,
+      "sha256": "af0df421af1c5b3fdce9954ba481d76cd4fcf0be239dd1739239f7d3e4c46dc5"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/audit_correction_backup_20260928_1549/tests.json",
+      "bytes": 3304,
+      "sha256": "ad2acca0e68f7046293e2bb6196bbbfc8a28cbad5dc5763875bf12d98e8f52e5"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/t11_identity_backup_20260928_233656/tests.json",
+      "bytes": 3143,
+      "sha256": "cf07f1d37b0a851d2681664da739164be50795cae5964ee2e8d2760a0714d477"
+    },
+    {
+      "group": "proof",
+      "path": "06_PROVAS/t11_login_backup_20260929/tests.json",
+      "bytes": 3143,
+      "sha256": "cf07f1d37b0a851d2681664da739164be50795cae5964ee2e8d2760a0714d477"
+    }
+  ]
+}
