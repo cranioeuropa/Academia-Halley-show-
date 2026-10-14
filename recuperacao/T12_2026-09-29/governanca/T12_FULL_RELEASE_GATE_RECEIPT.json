@@ -1,0 +1,59 @@
+{
+  "task": "T12_FULL_REGRESSION_AND_RELEASE_GATE",
+  "status": "PASS_RELEASE_CANDIDATE_WITH_PRODUCTION_BOUNDARIES",
+  "executed_at_local": "2026-09-29T20:55:00-03:00",
+  "regression": {
+    "source": "06_PROVAS/T12_FULL_RELEASE_GATE.json",
+    "checks_passed": 14,
+    "session_id": "session_b16052c38f59",
+    "flow": [
+      "public entry",
+      "member identification against canonical NAVE students",
+      "Today real",
+      "real session",
+      "3 real Chest Press sets",
+      "finish",
+      "canonical perception",
+      "Evolution readback",
+      "Sofia same-session readback",
+      "logout",
+      "PWA metadata",
+      "QR target",
+      "Xiaomi 12 browser emulation on public PWA"
+    ],
+    "evolution_before": {
+      "completed_workouts": 10,
+      "registered_sets": 16,
+      "registered_reps": 126,
+      "volume_kg": 2720
+    },
+    "evolution_after": {
+      "completed_workouts": 11,
+      "registered_sets": 19,
+      "registered_reps": 150,
+      "volume_kg": 3240
+    }
+  },
+  "bug_found_and_fixed": {
+    "symptom": "series write succeeded in canonical motor but UI sometimes remained one set behind",
+    "root_cause": "service worker cached /nave/ GET responses",
+    "fix": "sw.js v3 bypasses cache for /nave/ and always uses network/no-store",
+    "proof": "T12 final regression passed after fix"
+  },
+  "public_release": {
+    "app_id": "halley-show-jornada-viva-base-75al80",
+    "url": "https://halley-show-jornada-viva-base-75al80.v2.appdeploy.ai/",
+    "status": "READY",
+    "qa_frontend_errors": 0,
+    "qa_network_errors": 0,
+    "pwa_icon_403": "FIXED",
+    "public_scope": "PUBLIC PWA / demo LAB; member production binding not promoted"
+  },
+  "boundaries": {
+    "second_physical_xiaomi": "BLOCKED_NO_SECOND_ADB_MDNS_DEVICE",
+    "xiaomi12_emulation": "PASS",
+    "secure_public_member_auth": "NOT_PROVEN",
+    "reason": "Canonical NAVE currently exposes student identity by student_id only in the local lab. Publishing personal member data requires a secure public bridge/auth boundary; none was invented."
+  },
+  "release_status": "RC_LOCAL_MEMBER_PASS_PUBLIC_PWA_PASS_MEMBER_PRODUCTION_BLOCKED_UNTIL_SECURE_AUTH_BRIDGE"
+}
