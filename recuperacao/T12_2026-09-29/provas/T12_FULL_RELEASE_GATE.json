@@ -1,0 +1,382 @@
+{
+  "checks": {
+    "entry_requires_member_identification": true,
+    "canonical_identity_loaded": true,
+    "real_session_created": true,
+    "three_real_sets": true,
+    "session_finished": true,
+    "perception_canonical": true,
+    "evolution_incremented": true,
+    "sofia_same_session": true,
+    "sofia_sources_live": true,
+    "evolution_ui_same_ledger": true,
+    "logout_public_layer": true,
+    "pwa_local_ready": true,
+    "qr_points_public_url": true,
+    "public_pwa_xiaomi_emulation": true
+  },
+  "evidence": {
+    "entry_requires_member_identification": "H\nHALLEY SHOW\nACADEMIA\nIDENTIFICAÇÃO · LAB\nMEMBRO / ALUNO · IDENTIFICAÇÃO NAVE\nEntre no seu\ntreino real.\n\nEsta tela não cria conta nem banco paralelo. Ela confere seu código diretamente no cadastro de alunos da NAVE.\n\nCÓDIGO DO ALUNO\nENTRAR COMO ALUNO\nUse o código de aluno que já existe na NAVE.\nAutoridade: cadastro canônico da Academia / NAVE.\nO aparelho guarda somente um ponteiro temporário da sessão; identidade e histórico continuam no motor.\nVOLTAR À ÁREA PÚBLICA",
+    "canonical_identity_loaded": "H\nHALLEY SHOW\nACADEMIA\nALUNO IDENTIFICADO · LAB\n NAVE CONECTADA\nFala,\nAluno Demo.\n\nSeu próximo treino pode começar daqui. A NAVE mantém a continuidade.\n\nABRIR TREINO\nFALAR COM SOFIA\nNAVE conectada · pronta para nova sessão\nPROFESSOR HALLEY\nSESSÃO REAL\nPRONTA\nPeitoral A\nÚLTIMA PERCEPÇÃO\nNA_MEDIDA\nMotor progress_events\nEVOLUÇÃO\n10\ntreinos concluídos\nCIRCUITO 01 · CHEST PRESS\nTreino real. Registro real.\n\nAs séries marcadas aqui entram no ledger da NAVE. Ao finalizar, percepção, Evolução e Sofia leem o mesmo estado.\n\nABRIR CHEST PRESS\nPROFESSOR HALLEY\nPresente no treino.\nExecução, referência técnica e entrada humana quando necessário.\nSOFIA\n“Eu lembro: NA_MEDIDA.”\nContinuidade, percepção, evolução e professor no mesmo fio.\nHoje\nMeu treino\nEvolução\nDigital\nSofia",
+    "set_1_scroll_delta": 0,
+    "set_2_scroll_delta": 0,
+    "set_3_scroll_delta": 27,
+    "real_session_created": {
+      "student": {
+        "id": "student_demo_01",
+        "name": "Aluno Demo",
+        "created_at": "2026-09-13T12:01:56"
+      },
+      "active_session": {
+        "id": "session_b16052c38f59",
+        "student_id": "student_demo_01",
+        "workout_plan_id": "peitoral_a",
+        "status": "active",
+        "started_at": "2026-09-29T20:55:07",
+        "completed_at": null
+      },
+      "plan": {
+        "id": "peitoral_a",
+        "student_id": "student_demo_01",
+        "name": "Peitoral A",
+        "active": 1
+      }
+    },
+    "three_real_sets": [
+      {
+        "id": "set_74cdb92d0801",
+        "session_id": "session_b16052c38f59",
+        "exercise_id": "chest_press",
+        "set_number": 1,
+        "reps": 10,
+        "load_value": 20,
+        "load_unit": "kg",
+        "status": "completed",
+        "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+        "created_at": "2026-09-29T20:55:07",
+        "completed_at": "2026-09-29T20:55:07"
+      },
+      {
+        "id": "set_db53d7d0c69e",
+        "session_id": "session_b16052c38f59",
+        "exercise_id": "chest_press",
+        "set_number": 2,
+        "reps": 6,
+        "load_value": 20,
+        "load_unit": "kg",
+        "status": "completed",
+        "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+        "created_at": "2026-09-29T20:55:07",
+        "completed_at": "2026-09-29T20:55:07"
+      },
+      {
+        "id": "set_3f80dd74210b",
+        "session_id": "session_b16052c38f59",
+        "exercise_id": "chest_press",
+        "set_number": 3,
+        "reps": 8,
+        "load_value": 25,
+        "load_unit": "kg",
+        "status": "completed",
+        "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+        "created_at": "2026-09-29T20:55:07",
+        "completed_at": "2026-09-29T20:55:07"
+      }
+    ],
+    "session_finished": {
+      "student": {
+        "id": "student_demo_01",
+        "name": "Aluno Demo",
+        "created_at": "2026-09-13T12:01:56"
+      },
+      "active_session": null,
+      "plan": {
+        "id": "peitoral_a",
+        "student_id": "student_demo_01",
+        "name": "Peitoral A",
+        "active": 1
+      }
+    },
+    "perception_canonical": {
+      "student_id": "student_demo_01",
+      "event": {
+        "id": "event_perception_e96eb6a2e8a477cebde6",
+        "student_id": "student_demo_01",
+        "session_id": "session_b16052c38f59",
+        "exercise_id": "chest_press",
+        "event_type": "student_perception_recorded",
+        "payload": {
+          "exercise_id": "chest_press",
+          "idempotency_key": "HALLEY-JORNADA-1790726108381-1cbb3d15665cf",
+          "perception": "NA_MEDIDA",
+          "schema": "P03_PERCEPTION_EVENT_PAYLOAD_V0_1",
+          "session_id": "session_b16052c38f59",
+          "source": "HALLEY_V3_1_P03_RUNTIME_CANDIDATE",
+          "student_id": "student_demo_01"
+        },
+        "created_at": "2026-09-29T20:55:08"
+      },
+      "perception": "NA_MEDIDA",
+      "source": "MOTOR_PROGRESS_EVENTS"
+    },
+    "evolution_incremented": {
+      "before": {
+        "completed_workouts": 10,
+        "registered_sets": 16,
+        "registered_reps": 126,
+        "volume_kg": 2720,
+        "volume_lb": 0,
+        "bodyweight_sets": 0,
+        "bodyweight_reps": 0,
+        "completed_last_7_days": 4
+      },
+      "after": {
+        "completed_workouts": 11,
+        "registered_sets": 19,
+        "registered_reps": 150,
+        "volume_kg": 3240,
+        "volume_lb": 0,
+        "bodyweight_sets": 0,
+        "bodyweight_reps": 0,
+        "completed_last_7_days": 5
+      }
+    },
+    "sofia_same_session": {
+      "sid": "session_b16052c38f59",
+      "last": {
+        "id": "session_b16052c38f59",
+        "name": "Peitoral A",
+        "completed_at": "2026-09-29T20:55:08",
+        "set_count": 3,
+        "reps": 24,
+        "volume_kg": 520,
+        "volume_lb": 0,
+        "sets": [
+          {
+            "id": "set_74cdb92d0801",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 1,
+            "reps": 10,
+            "load_value": 20,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          },
+          {
+            "id": "set_db53d7d0c69e",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 2,
+            "reps": 6,
+            "load_value": 20,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          },
+          {
+            "id": "set_3f80dd74210b",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 3,
+            "reps": 8,
+            "load_value": 25,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          }
+        ]
+      }
+    },
+    "sofia_sources_live": {
+      "treinos": "available",
+      "evolucao": "available",
+      "details": {
+        "treinos": null,
+        "evolucao": null
+      }
+    },
+    "evolution_ui_same_ledger": "H\nHALLEY SHOW\nACADEMIA\nALUNO IDENTIFICADO · LAB\nEVOLUÇÃO · MOTOR NAVE\nO treino deixa\nrastro real.\n\nEsta tela lê o ledger canônico. O cache do celular não decide sua história.\n\nTREINOS CONCLUÍDOS\n11\nMotor Evolução\nSÉRIES REGISTRADAS\n19\nledger real\nVOLUME REGISTRADO\n3240 kg\nsomente o que existe no Motor\nPeitoral A\n3 séries · 24 reps · 520 kg\nPeitoral A\n3 séries · 24 reps · 520 kg\nPeitoral A\n3 séries · 24 reps · 520 kg\nPeitoral A\n3 séries · 24 reps · 520 kg\nPeitoral A\n3 séries · 24 reps · 520 kg\nATUALIZAR DA NAVE\nHoje\nMeu treino\nEvolução\nDigital\nSofia",
+    "logout_public_layer": "H\nHALLEY SHOW\nACADEMIA\nACESSO PÚBLICO · LAB\nACADEMIA HALLEY SHOW · ACESSO LIVRE\nSeu corpo.\nSeu começo.\n\nVocê não precisa ter cadastro para começar a conhecer a Halley. Use a camada pública, explore conteúdos e entre como aluno somente quando fizer sentido.\n\nCALISTENIA GRÁTIS\nJÁ SOU ALUNO\nMOVIMENTO\nDICAS\nRESENHA\nHALLEY NO SEU CELULAR\nLeve a Halley com você.\n\nSeu navegador confirmou que esta versão pode ser instalada como app.\n\nINSTALAR APP\nEXPLORE SEM CADASTRO\nUtilidade primeiro.\n\nCamada pública sem histórico pessoal e sem prescrição individual.\n\n01\nCalistenia\nMovimentos e aulas públicas entram aqui quando o conteúdo técnico estiver aprovado.\nGRÁTIS · ESTRUTURA PRONTA\n02\nMovimentos & mobilidade\nConteúdo curto, visual e sem personalização clínica.\nCONTEÚDO EM PREPARAÇÃO\n03\nDicas\nExplicações rápidas e conteúdo aprovado do professor.\nCONTEÚDO EM PREPARAÇÃO\n04\nAcademia Digital\nTreino, conteúdo, histórias e Resenha da Casa em uma área editorial nativa.\nABRIR ACADEMIA DIGITAL\nJÁ TREINA COM A ",
+    "pwa_local_ready": {
+      "manifestStatus": 200,
+      "display": "standalone",
+      "icons": [
+        "192x192",
+        "512x512"
+      ],
+      "swStatus": 200,
+      "swReady": true,
+      "swScope": "http://127.0.0.1:8799/",
+      "qrOk": true,
+      "installButton": "INSTALAR APP"
+    },
+    "qr_points_public_url": {
+      "qrTarget": "https://halley-show-jornada-viva-base-75al80.v2.appdeploy.ai/",
+      "bytes": 6508
+    },
+    "public_pwa_xiaomi_emulation": {
+      "http": 200,
+      "text": "H\nHALLEY SHOW\nACADEMIA\nACESSO PÚBLICO · LAB\nACADEMIA HALLEY SHOW · ACESSO LIVRE\nSeu corpo.\nSeu começo.\n\nVocê não precisa ter cadastro para começar a conhecer a Halley. Use a camada pública, explore conteúdos e entre como aluno somente quando fizer sentido.\n\nCALISTENIA GRÁTIS\nJÁ SOU ALUNO\nMOVIMENTO\nDICAS\nRESENHA\nHALLEY NO SEU CELULAR\nLeve a Halley com você.\n\nSeu navegador confirmou que esta versão pode ser instalada como app.\n\nINSTALAR APP\nEXPLORE SEM CADASTRO\nUtilidade primeiro.\n\nCamada pública sem histórico pessoal e sem prescrição individual.\n\n01\nCalistenia\nMovimentos e aulas públicas entram aqui quando o conteúdo técnico estiver aprovado.\nGRÁTIS · ESTRUTURA PRONTA\n02\nMovimentos & mobilidade\nConteúdo curto, visual e sem personalização clínica.\nCONTEÚDO EM PREPARAÇÃO\n03\nDicas\nExplicações rápidas e conteúdo aprovado do professor.\nCONTEÚDO EM PREPARAÇÃO\n04\nAcademia Digital\nTreino, conteúdo, histórias e Resenha da Casa em uma área editorial nativa.\nABRIR ACADEMIA DIGITAL\nJÁ TREINA COM A GENTE?\nSeu treino de hoje está do outro lado.\n\nNo laboratório, essa entrada demonstra a experiência do aluno identificado sem declarar autenticação real.\n\nENTRAR COMO ALUNO\nInício\nCalistenia\nConteúdos",
+      "manifestStatus": 200,
+      "display": "standalone",
+      "swReady": true,
+      "installCard": true,
+      "publicErrors": []
+    }
+  },
+  "networkFailures": [],
+  "consoleErrors": [],
+  "unexpectedNetworkFailures": [],
+  "session_id": "session_b16052c38f59",
+  "before": {
+    "today": {
+      "student": {
+        "id": "student_demo_01",
+        "name": "Aluno Demo",
+        "created_at": "2026-09-13T12:01:56"
+      },
+      "active_session": null,
+      "plan": {
+        "id": "peitoral_a",
+        "student_id": "student_demo_01",
+        "name": "Peitoral A",
+        "active": 1
+      }
+    },
+    "evolution": {
+      "completed_workouts": 10,
+      "registered_sets": 16,
+      "registered_reps": 126,
+      "volume_kg": 2720,
+      "volume_lb": 0,
+      "bodyweight_sets": 0,
+      "bodyweight_reps": 0,
+      "completed_last_7_days": 4
+    }
+  },
+  "after": {
+    "today": {
+      "student": {
+        "id": "student_demo_01",
+        "name": "Aluno Demo",
+        "created_at": "2026-09-13T12:01:56"
+      },
+      "active_session": null,
+      "plan": {
+        "id": "peitoral_a",
+        "student_id": "student_demo_01",
+        "name": "Peitoral A",
+        "active": 1
+      }
+    },
+    "evolution": {
+      "completed_workouts": 11,
+      "registered_sets": 19,
+      "registered_reps": 150,
+      "volume_kg": 3240,
+      "volume_lb": 0,
+      "bodyweight_sets": 0,
+      "bodyweight_reps": 0,
+      "completed_last_7_days": 5
+    },
+    "perception": {
+      "student_id": "student_demo_01",
+      "event": {
+        "id": "event_perception_e96eb6a2e8a477cebde6",
+        "student_id": "student_demo_01",
+        "session_id": "session_b16052c38f59",
+        "exercise_id": "chest_press",
+        "event_type": "student_perception_recorded",
+        "payload": {
+          "exercise_id": "chest_press",
+          "idempotency_key": "HALLEY-JORNADA-1790726108381-1cbb3d15665cf",
+          "perception": "NA_MEDIDA",
+          "schema": "P03_PERCEPTION_EVENT_PAYLOAD_V0_1",
+          "session_id": "session_b16052c38f59",
+          "source": "HALLEY_V3_1_P03_RUNTIME_CANDIDATE",
+          "student_id": "student_demo_01"
+        },
+        "created_at": "2026-09-29T20:55:08"
+      },
+      "perception": "NA_MEDIDA",
+      "source": "MOTOR_PROGRESS_EVENTS"
+    },
+    "sofia": {
+      "source_status": {
+        "treinos": "available",
+        "evolucao": "available",
+        "details": {
+          "treinos": null,
+          "evolucao": null
+        }
+      },
+      "last_workout": {
+        "id": "session_b16052c38f59",
+        "name": "Peitoral A",
+        "completed_at": "2026-09-29T20:55:08",
+        "set_count": 3,
+        "reps": 24,
+        "volume_kg": 520,
+        "volume_lb": 0,
+        "sets": [
+          {
+            "id": "set_74cdb92d0801",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 1,
+            "reps": 10,
+            "load_value": 20,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          },
+          {
+            "id": "set_db53d7d0c69e",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 2,
+            "reps": 6,
+            "load_value": 20,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          },
+          {
+            "id": "set_3f80dd74210b",
+            "session_id": "session_b16052c38f59",
+            "exercise_id": "chest_press",
+            "set_number": 3,
+            "reps": 8,
+            "load_value": 25,
+            "load_unit": "kg",
+            "status": "completed",
+            "note": "Repetição do último registro real; confirmação pelo aluno no LAB.",
+            "created_at": "2026-09-29T20:55:07",
+            "completed_at": "2026-09-29T20:55:07"
+          }
+        ]
+      }
+    }
+  },
+  "publicPwa": {
+    "text": "H\nHALLEY SHOW\nACADEMIA\nACESSO PÚBLICO · LAB\nACADEMIA HALLEY SHOW · ACESSO LIVRE\nSeu corpo.\nSeu começo.\n\nVocê não precisa ter cadastro para começar a conhecer a Halley. Use a camada pública, explore conteúdos e entre como aluno somente quando fizer sentido.\n\nCALISTENIA GRÁTIS\nJÁ SOU ALUNO\nMOVIMENTO\nDICAS\nRESENHA\nHALLEY NO SEU CELULAR\nLeve a Halley com você.\n\nSeu navegador confirmou que esta versão pode ser instalada como app.\n\nINSTALAR APP\nEXPLORE SEM CADASTRO\nUtilidade primeiro.\n\nCamada pública sem histórico pessoal e sem prescrição individual.\n\n01\nCalistenia\nMovimentos e aulas públicas entram aqui quando o conteúdo técnico estiver aprovado.\nGRÁTIS · ESTRUTURA PRONTA\n02\nMovimentos & mobilidade\nConteúdo curto, visual e sem personalização clínica.\nCONTEÚDO EM PREPARAÇÃO\n03\nDicas\nExplicações rápidas e conteúdo aprovado do professor.\nCONTEÚDO EM PREPARAÇÃO\n04\nAcademia Digital\nTreino, conteúdo, histórias e Resenha da Casa em uma área editorial nativa.\nABRIR ACADEMIA DIGITAL\nJÁ TREINA COM A GENTE?\nSeu treino de hoje está do outro lado.\n\nNo laboratório, essa entrada demonstra a experiência do aluno identificado sem declarar autenticação real.\n\nENTRAR COMO ALUNO\nInício\nCalistenia\nConteúdos",
+    "manifestStatus": 200,
+    "display": "standalone",
+    "swReady": true,
+    "installCard": true
+  },
+  "physicalSecondDevice": "BLOCKED_NO_SECOND_ADB_MDNS_DEVICE",
+  "releaseStatus": "RC_LOCAL_MEMBER_PASS_PUBLIC_PWA_PASS_MEMBER_PRODUCTION_REQUIRES_SECURE_PUBLIC_NAVE_AUTH_BRIDGE",
+  "pass": true
+}
