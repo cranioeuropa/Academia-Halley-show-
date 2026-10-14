@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.halleyshow.jornadaviva'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.halleyshow.jornadaviva'
+        minSdk 26
+        targetSdk 34
+        versionCode 9
+        versionName '0.2.4-local'
+    }
+}
+
