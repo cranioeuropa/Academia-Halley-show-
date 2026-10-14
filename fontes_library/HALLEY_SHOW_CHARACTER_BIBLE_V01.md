@@ -997,3 +997,43 @@ O que ainda falta para um `IDENTITY_LOCK_V1` não é mais arquitetura: é **sele
 Entrada:
 
 - referências visuais já existentes na Library.
+
+Saída esperada:
+
+- 1 imagem-mãe;
+- 1 style mode primário;
+- 1 Character Sheet produzida;
+- 1 score de continuidade;
+- decisão `LOCK | REVISE | REJECT`.
+
+Nenhum novo universo visual precisa ser inventado antes desse gate.
+
+---
+
+# 24. RESUMO EXECUTIVO DO PERSONAGEM
+
+**Professor Halley é o professor-condutor da Academia Halley Show.** Sua identidade visual recorrente combina corpo atlético, cabelo escuro longo trançado, barba curta/cavanhaque, braços tatuados, uniforme preto com assinatura vermelha e presença confiante. Sua função é ensinar, corrigir, acompanhar e transformar contexto em próximo movimento. Sua energia é presente e controlada, não agressiva. Sua voz é direta, humana e orientada à ação. A identidade não pertence a um modelo de IA e deve sobreviver à troca de provider, estilo ou ferramenta. Variações são permitidas somente quando preservam os sinais nucleares. Toda nova representação passa por continuidade, performance e revisão humana antes de virar patrimônio operacional.
+
+---
+
+# 25. REGISTRO DE PROVENIÊNCIA
+
+Fontes consultadas para esta V0.1:
+
+- `will_smith_prompt_deck.pdf` — referência metodológica de Character Reference Sheet;
+- `Guia Visual Academia Halley Show.png` — evidência forte de identidade/aplicações;
+- `ChatGPT Image 2 de mar. de 2026, 17_59_41(1).png` — retrato ilustrado recorrente;
+- `ChatGPT Image 30 de mai. de 2026, 10_43_58(5).png` — poses, expressões, emoções, esportes, ângulos e objetos;
+- `EQUIPE_VIVA_HALLEY_SHOW.png` — papel do Professor Halley dentro da equipe;
+- `Equipe Viva da Academia Halley Show.png` — função resumida do personagem;
+- `MAPA_ORGAOS_ACADEMIA_HALLEY_SHOW_V0_1.md` — fronteira personagem/provider e arquitetura de experiência;
+- `1001722352(2).png` — papel do Professor Halley na condução de módulos;
+- `Guia Visual Halley Show V7.png` — sistema modular de composição;
+- `Arquitetura Visual do Halley Show.png` — biblioteca de assets e IA controlada;
+- `Sistema Visual Modular Halley Show(1).png` — variante de linguagem visual;
+- `HALLEY_SHOW_MOLDE_01.json` — mensagens e variantes de composição;
+- `reference_sheet_inventory.json` — status `reference_only` e necessidade de revisão humana.
+
+---
+
+**FIM — HALLEY SHOW CHARACTER BIBLE V0.1**
