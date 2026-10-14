@@ -1,0 +1,34 @@
+{
+  "project_id": "HALLEY_SHOW_JORNADA_VIVA_BASE",
+  "classification": "LAB_WORKSPACE_NON_CANONICAL",
+  "status": "T12_RELEASE_CANDIDATE_CHECKPOINTED_HANDOFF_READY",
+  "authority": {
+    "product_base": "HALLEY APP V3.1 — ALUNO ATIVO",
+    "longitudinal_truth": "NAVE / Academia Operação Viva / Cotidiano Vivo",
+    "technical_truth": "HALLEY_APP_MVP_01 V0.1.1",
+    "visual_golden": "HALLEY CENA VIVA V3.5",
+    "jornada_viva": "LAB / UX candidate"
+  },
+  "completed_plan": "HALLEY_FAST_12_TASKS_SKILL_DRIVEN_V1",
+  "completed_tasks": "12/12",
+  "release_status": "RC_LOCAL_MEMBER_PASS_PUBLIC_PWA_PASS_MEMBER_PRODUCTION_BLOCKED_UNTIL_SECURE_AUTH_BRIDGE",
+  "public_url": "https://halley-show-jornada-viva-base-75al80.v2.appdeploy.ai/",
+  "github": {
+    "repository": "cranioeuropa/sro-motor",
+    "branch": "checkpoint/halley-jornada-viva-lab",
+    "t12_commit": "8f0a2e69828d03fd02f3dd0fc17b96eceb727e5d",
+    "message": "checkpoint(halley): T12 member identification and release gate"
+  },
+  "library": {
+    "blueprint": "/NAVE/ACADEMIA/HALLEY_SHOW_JORNADA_VIVA_BASE/RECOVERY/BLUEPRINT_MASTER_ROADMAP_HALLEY_2026-09-30.md"
+  },
+  "boundaries": [
+    "secure public member auth/NAVE bridge not yet proven",
+    "second physical Xiaomi not yet proven"
+  ],
+  "next_block": [
+    "R13_AUTHORITY_SECURITY_MODEL",
+    "R14_SECURE_PUBLIC_MEMBER_BRIDGE",
+    "R15_SECURITY_REGRESSION"
+  ]
+}
