@@ -1,6 +1,6 @@
 # Encaixe de assets — Jornada Viva v0.1
 
-**Estado:** fontes localizadas no PC Crânio; **imagens binárias não foram copiadas para esta branch**. Primeiro conferir visualmente personagem/identidade da GOLDEN V3.5 e licença/aprovação dos materiais.
+**Estado (18/10):** sete imagens operacionais e um guia visual do acervo foram **enviados como binários** para esta branch, com hashes em [ASSET_CATALOG_V01.json](./ASSET_CATALOG_V01.json). Identidade final e enquadramento ainda precisam da revisão visual do usuário. Primeiro conferir visualmente personagem/identidade da GOLDEN V3.5 e licença/aprovação dos materiais.
 
 ## Fontes confirmadas no PC Crânio
 
@@ -20,12 +20,12 @@ Raiz: `NAVE/ACADEMIA/HALLEY_SHOW_JORNADA_VIVA_BASE/`
 
 | Chave `ASSET_REGISTRY` | Tela | Candidato físico | Gate |
 |---|---|---|---|
-| `halley.hero` | Chegada | `halley_acolhendo.png` | Identidade/enquadramento |
-| `halley.welcome` | Conhecer | `halley_apresentando.png` | Identidade/enquadramento |
-| `halley.victory` | Continuidade | `halley_celebrando.png` | Identidade/enquadramento |
-| `exercise.chest` | Hoje | `chest_press_aprovado.webp` | Fidelidade ao exercício aprovado |
-| `exercise.execution` | Treino | `chest_press_aprovado.webp` | Mesma técnica, não inventar movimento |
-| `sofia.portrait` | Sofia e percepção | `sofia_acolhendo.webp` | Identidade visual da Sofia |
+| `halley.hero` | Chegada | `halley_acolhendo.png` | ENCAIXADO / aguarda revisão visual |
+| `halley.welcome` | Conhecer | `halley_apresentando.png` | ENCAIXADO / aguarda revisão visual |
+| `halley.victory` | Continuidade | `halley_celebrando.png` | ENCAIXADO / aguarda revisão visual |
+| `exercise.chest` | Hoje | `chest_press_aprovado.webp` | ENCAIXADO / exercício já homologado no LAB |
+| `exercise.execution` | Treino | `chest_press_aprovado.webp` | ENCAIXADO / imagem estática, não é vídeo |
+| `sofia.portrait` | Sofia e percepção | `sofia_acolhendo.webp` | ENCAIXADO / revisão visual pendente |
 | `community.cover` | Academia Digital | Curadoria editorial pendente | Não simular pessoas/comunidade reais |
 
 ## Como encaixar sem redesenhar
@@ -40,7 +40,7 @@ window.HALLEY_UX_LAB.applyAssets({
 })
 ```
 
-Esses caminhos **só funcionam depois que os arquivos correspondentes forem colocados fisicamente no destino**. Não alegar presença de imagem no GitHub só por haver nome no mapa.
+Os seis slots listados acima estão agora configurados por padrão no `index.html` com URL pública `raw.githubusercontent.com` desta branch. Arquivos correspondentes foram lidos de volta no GitHub; para uso offline, baixar também a pasta `assets/` e adaptar `ASSET_BASE`. `community.cover` ainda é placeholder, evitando inventar conteúdo.
 
 ## Composições visuais 1–9
 
