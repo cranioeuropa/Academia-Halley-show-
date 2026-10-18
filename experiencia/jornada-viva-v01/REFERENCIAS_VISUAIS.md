@@ -26,7 +26,7 @@ As três pranchas foram geradas na conversa e verificadas no container de trabal
 - `halley_jornada_estrutura_v01_home.png` (390×844): SHA-256 `1f2d1ba298028f217ef09d788e720f715879bdbe8a33e5ade91857e573345437`.
 - `halley_jornada_estrutura_v01_digital.png` (390×844): SHA-256 `9d5dc94e49ad375cd878cb0b07c92eb49b3b47627d2616675be985bba59c59e2`.
 
-**Atenção:** nomes/hashes preservam proveniência, não significam upload dos PNG. A interface HTML fonte está versionada em [index.html](./index.html).
+**Atenção:** os PNG das pranchas conceituais continuam não enviados. **Separadamente**, foram versionados sete assets do PC e o guia visual da Library em `assets/` e `referencias/`; ver [catálogo](./ASSET_CATALOG_V01.json). A interface HTML fonte está versionada em [index.html](./index.html).
 
 ## Próxima ação válida
 
