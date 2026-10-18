@@ -1,0 +1,82 @@
+{
+  "catalog_id": "HALLEY_JORNADA_VIVA_ASSETS_V01",
+  "date": "2026-10-18",
+  "scope": "CANDIDATA_UX_LAB_NON_CANONICAL",
+  "source_root": "NAVE/ACADEMIA/HALLEY_SHOW_JORNADA_VIVA_BASE/",
+  "source_dir": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/",
+  "git_path": "experiencia/jornada-viva-v01/assets/",
+  "branch": "staging/halley-jornada-ux-v01-20261018",
+  "validation": "bytes_readback_confirmed_on_GITHUB; official facial lock pending final human approval",
+  "assets": [
+    {
+      "file": "halley_acolhendo.png",
+      "bytes": 857336,
+      "sha256": "79e64d77659a90c2df45697f1135c66819a8e28bb1cdecd809d4563811e496e4",
+      "git_blob_sha": "5316372b91347e7ccc1a0f2971ccf26dc714d369",
+      "slot": "halley.hero",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/halley_acolhendo.png"
+    },
+    {
+      "file": "halley_apresentando.png",
+      "bytes": 428479,
+      "sha256": "1a6453c47cc14f9f0b3df8d77ce2c2999e27d1dbde8a84bfabadfceb67fafdf4",
+      "git_blob_sha": "e9b3f6581ba0fb95bdc07fcff5509f6f14c808ba",
+      "slot": "halley.welcome",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/halley_apresentando.png"
+    },
+    {
+      "file": "halley_celebrando.png",
+      "bytes": 544531,
+      "sha256": "0eab63bf1a88f54e60826558e47456dd30ef5c1136499bd927077af66eeb4f0d",
+      "git_blob_sha": "3e30a9cb57e184a03dedb9df7db301495199d868",
+      "slot": "halley.victory",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/halley_celebrando.png"
+    },
+    {
+      "file": "halley_observando.png",
+      "bytes": 734066,
+      "sha256": "5ef4258cd122cb139add736a32837e7019211997019877345348bb07ab7d650b",
+      "git_blob_sha": "f2cffb4fb81eaa98c7acd14b0d11a1bfe14124b6",
+      "slot": "extra.visual",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/halley_observando.png"
+    },
+    {
+      "file": "sofia_acolhendo.webp",
+      "bytes": 66404,
+      "sha256": "53dd89a5770e2ae8045de98fda9d671314c2d76e3ee1b13241ef36a1082872d1",
+      "git_blob_sha": "aafa018930a72d9c047b7ebecf936390c22c19ad",
+      "slot": "sofia.portrait",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/sofia_acolhendo.webp"
+    },
+    {
+      "file": "sofia_indicando.webp",
+      "bytes": 62870,
+      "sha256": "c5fd300a6efa7e72a90e189f5045acbd49d57bba3c21ac215ed8b28865e082bf",
+      "git_blob_sha": "644a77b839de65a76902d7f8f8b9ce84d4830daa",
+      "slot": "extra.visual",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/sofia_indicando.webp"
+    },
+    {
+      "file": "chest_press_aprovado.webp",
+      "bytes": 178798,
+      "sha256": "b4ed55af505bcfeaf0d4a15f866b57f38bcb6bfa1e300883d0040209f885b0bd",
+      "git_blob_sha": "8004d7ed62d3bdce05e1eb2cbff9da9d87c94725",
+      "slot": "exercise.chest,exercise.execution",
+      "source": "01_WEB_APPDEPLOY_SNAPSHOT/public/resources/chest_press_aprovado.webp"
+    }
+  ],
+  "references": [
+    {
+      "file": "referencias/GUIA_VISUAL_PROFESSOR_HALLEY_SHOW_2026-09-18.png",
+      "bytes": 435263,
+      "sha256": "9686e4f878429b2f763e29e44935621c49b770f114a17b9a9c4754fd1e4585bb",
+      "git_blob_sha": "bd4a135fcd48b4fa2ee23eac2b177e391d9e2dcb",
+      "origin_library": "GUIA_VISUAL_PROFESSOR_HALLEY_SHOW_2026-09-18.png",
+      "origin_pc": "04_ASSETS/halley-character-guide.png"
+    }
+  ],
+  "not_uploaded": [
+    "nine generated card-board images (non-canonical concept faces)",
+    "community editorial image pending curation"
+  ]
+}
