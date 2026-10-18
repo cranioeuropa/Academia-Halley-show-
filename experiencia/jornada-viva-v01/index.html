@@ -71,12 +71,12 @@
  </div>
  <div class="aside"><div class="eyebrow">Halley Show · Laboratório de experiência</div><h1>Primeiro a jornada.<br><span style="color:#ff4c5d">Depois os assets.</span></h1><p>Esta é uma <strong style="color:white">estrutura interativa isolada</strong>, não o aplicativo instalado. Navegue pelos nove estados e avalie fluxo, ordem, leitura, ações e proporção das imagens antes de aplicar os personagens aprovados.</p>
  <div class="steps" id="navigation"></div>
- <div class="legend"><strong>O que já funciona nesta prévia</strong><p>✓ Nove telas navegáveis · duas entradas: aluno e visitante</p><p>✓ Séries clicáveis e percepção no modo demonstração</p><p>✓ Slots identificados para Professor Halley, Sofia, exercícios e comunidade</p><p>✓ Página responsiva, sem internet nem imagens externas</p><p>— Não faz login real, não grava na NAVE, não altera o app do POCO</p></div>
+ <div class="legend"><strong>O que já funciona nesta prévia</strong><p>✓ Nove telas navegáveis · duas entradas: aluno e visitante</p><p>✓ Séries clicáveis e percepção no modo demonstração</p><p>✓ Slots identificados para Professor Halley, Sofia, exercícios e comunidade</p><p>✓ Página responsiva, imagens hospedadas no GitHub</p><p>— Não faz login real, não grava na NAVE, não altera o app do POCO</p></div>
  <p class="note">Candidata UX v0.1 · preservar HALLEY APP V3.1, GOLDEN V3.5 e os contratos técnicos da NAVE. No protótipo, dados e métricas são exclusivamente ilustrativos.</p></div>
 </div>
 <script>
 'use strict';
-// ASSET_REGISTRY: vincular URL somente após curadoria, mantendo proporções e focal points.
+// ASSET_REGISTRY: seis slots ligados às imagens existentes do PC Crânio; comunidade segue pendente.
 const ASSET_REGISTRY={
  'halley.hero':null,'halley.welcome':null,'halley.victory':null,
  'exercise.chest':null,'exercise.execution':null,
@@ -94,7 +94,7 @@ function notReady(){notify('Este conteúdo aguarda integração ou aprovação t
 function completeSet(){if(sets>=3){go('percepcao');return;}sets++;document.querySelectorAll('#steps>div').forEach((n,i)=>n.classList.toggle('done',i<sets));document.getElementById('setprogress').style.width=(sets/3*100)+'%';document.getElementById('countLabel').textContent=sets+' de 3 séries demonstrativas.';document.getElementById('seriesBtn').textContent=sets===3?'Continuar para percepção →':'✓ Concluir série '+(sets+1);if(sets===3)notify('Três séries concluídas na prévia. Agora registre sua percepção.');}
 function feel(button){perception=button.dataset.feel;document.querySelectorAll('[data-feel]').forEach(b=>b.classList.toggle('selected',b===button));}
 function submitFeel(){if(!perception){notify('Selecione uma percepção para continuar.');return;}if(perception==='FALAR_COM_PROFESSOR'){notify('No produto real, esta situação exige encaminhamento ao professor.');return;}notify('Percepção simulada localmente; nenhum dado foi enviado à NAVE.');go('continuidade');}
-// Asset swap: quando aprovados, chamar applyAssets({ 'halley.hero': '/resources/...png', ... })
+// Troca governada de assets, mantendo contratos visuais e sem alterar a NAVE.
 function applyAssets(mapping){for(const [key,url] of Object.entries(mapping)){if(!Object.hasOwn(ASSET_REGISTRY,key)||!url)continue;ASSET_REGISTRY[key]=url;document.querySelectorAll('[data-asset="'+key+'"]').forEach(node=>{node.style.backgroundImage='linear-gradient(0deg,#0c0a0dcc,transparent 78%), url("'+url.replace(/"/g,'%22')+'")';node.style.backgroundSize='cover';node.style.backgroundPosition='center';node.classList.add('with-image');if(node.classList.contains('asset')){node.style.backgroundSize='contain';node.style.backgroundPosition='center bottom';node.style.backgroundRepeat='no-repeat';node.innerHTML='';}else if(node.classList.contains('media'))node.innerHTML='';});}}
 // Imagens versionadas no GitHub: HTML avulso precisa de internet para carrega-las.
 const ASSET_BASE='https://raw.githubusercontent.com/cranioeuropa/Academia-Halley-show-/staging/halley-jornada-ux-v01-20261018/experiencia/jornada-viva-v01/assets/';
