@@ -5,7 +5,7 @@
 
 ## Bloco 01 — Identidade + assets (próximo)
 
-- [ ] Conferir as imagens reais (Halley e Sofia) contra o acervo aprovado da V3.5.
+- [ ] Aprovação visual humana das sete imagens recuperadas, com conferência de rosto, enquadramento e GOLDEN V3.5.
 - [ ] Inserir os assets aprovados nos sete slots; testar crop, contraste, densidade e responsividade.
 - [ ] Comparar Home, Hoje, Sofia e Continuidade com prints do POCO, corrigindo legibilidade e prioridade visual.
 
@@ -32,6 +32,6 @@
 - [x] Branch independente criada a partir da branch de evidências.
 - [x] HTML original de nove estados salvo em GitHub.
 - [x] Slots e fontes de assets mapeados.
-- [ ] Binaries de imagens versionados e aplicados.
-- [ ] Live preview servida a partir desta branch.
+- [x] Sete binários de imagens operacionais e guia visual enviados; seis slots aplicados automaticamente.
+- [ ] Live preview publicado em hospedagem própria a partir desta branch (imagens raw hospedadas no GitHub; HTML ainda não implantado).
 - [ ] Prova completa em POCO com esta nova candidata.
