@@ -1,13 +1,13 @@
 # Halley Show — Jornada Viva | Candidata UX v0.1
 
-**Checkpoint:** 2026-10-18  
+**Checkpoint:** 2026-10-18 · revisão de assets versionada  
 **Estado:** protótipo navegável isolado, **não canônico** e **não implantado no POCO**.  
 **Origem:** revisão da experiência após teste físico no POCO, com nove composições conceituais de interface.
 
 ## Abra a estrutura
 
 [**Prévia HTML (arquivo-fonte)**](./index.html) — abra em navegador após baixar ou use servidor local estático.  
-Arquivo autossuficiente, com CSS e JavaScript internos. **Não tem comunicação com a NAVE** nem autenticação real.
+Arquivo HTML com CSS e JavaScript internos e seis imagens carregadas de URLs públicas do GitHub (requer internet). **Não tem comunicação com a NAVE** nem autenticação real.
 
 ## As nove superfícies
 
@@ -28,7 +28,7 @@ Os estados são **superfícies reutilizáveis**, não nove etapas obrigatórias 
 ## O que o protótipo realmente prova
 
 - Estrutura visual responsiva, estados e navegação demonstrativa em arquivo HTML único.
-- Espaços de imagem nomeados no `ASSET_REGISTRY`, substituíveis usando `window.HALLEY_UX_LAB.applyAssets(mapping)`.
+- Sete slots de imagem nomeados no `ASSET_REGISTRY`: **seis agora carregam automaticamente** imagens versionadas no GitHub; `community.cover` permanece reservado, sem conteúdo curado. O mapeamento continua substituível por `window.HALLEY_UX_LAB.applyAssets(mapping)`.
 - Cenários de séries/percepção são apenas ilustração e **não gravam dados reais**.
 
 **Não prova:** serviço online, build Android, UX validada com cliente, imagens oficiais encaixadas, integração NAVE, readback do ledger, segurança de membro ou técnica de outros grupos musculares.
@@ -47,9 +47,9 @@ Os estados são **superfícies reutilizáveis**, não nove etapas obrigatórias 
 
 Arquivos e relatórios mais antigos da Academia já estão preservados neste repositório na branch original `staging/halley-security-evidence-v05`. Esta branch parte daquela linha e adiciona a candidata visual; **não substitui o sistema existente**.
 
-Leitura obrigatória: [assets](./ASSET_MAP.md), [roteiro incremental](./ROADMAP.md) e [gate de validação](./QA_GATE.md).
+Leitura obrigatória: [assets](./ASSET_MAP.md), [catálogo com checksums](./ASSET_CATALOG_V01.json), [guia visual](./referencias/GUIA_VISUAL_PROFESSOR_HALLEY_SHOW_2026-09-18.png), [roteiro](./ROADMAP.md) e [gate](./QA_GATE.md).
 
 ## Regra de evolução
 
-Design aprovado visualmente → assets oficiais encaixados → componentes ligados ao Vite LAB existente → integração real NAVE → teste ponta a ponta no POCO → checkpoint.  
+Design aprovado visualmente → imagens recuperadas do PC e versionadas (ajuste fino de identidade pendente) → componentes ligados ao Vite LAB existente → integração real NAVE → teste ponta a ponta no POCO → checkpoint.  
 Cada avanço exige evidência e não promove automaticamente a candidata a produto canônico.
